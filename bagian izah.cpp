@@ -14,6 +14,7 @@ int main(){
 	cout<<"1. Penjumlahan"<<endl;
 	cout<<"2. Akar Pangkat 2"<<endl;
 	cout<<"3. Inverse Tangen"<<endl;
+	cout<<"4. Cosinus"<<endl;
 	
 	cout<<"Masukan Pilihan : ";
 	cin>>pil;
@@ -38,6 +39,13 @@ int main(){
 	cin>>angka_1;
 	
 	hasil=atan(angka_1);
+	}
+
+	if (pil==4){
+	cout<<"Masukan Bilangan : ";
+	cin>>angka_1;
+	
+	hasil=cos(angka_1);
 	}
 	
 	cout<<" Nilai Keluaran =   "<<hasil<<endl;
